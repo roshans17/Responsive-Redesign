@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="skeleton.css" />
+    <title>Responsive Redesign</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <style>
+      body {
+        font-family: "Inter";
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--------------Title--------------->
+    <div class="container">
+      <div class="row">
+        <div
+          class="one column"
+          style="
+            color: #070600;
+            width: 100%;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bolder;
+            border-bottom: 2px solid #e6e6e9;
+            background-color: white;
+          "
+        >
+          A Responsive Redesign of the Brown Fellowships Website
+        </div>
+      </div>
+    </div>
+    <!--------------Overview----------->
+    <div class="container">
+      <div class="row">
+        <div
+          class="one column"
+          style="
+            margin-top: 5%;
+            border-bottom: 5px solid#C00404;
+            color: #070600;
+            width: auto;
+            margin-left: 9.5%;
+            height: 3.5rem;
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          Overview:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 70%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <p>
+            As a student with big ambitions but not a lot of money to accomplish
+            them, Fellowships have always interested me. Getting paid for an
+            academic or moral pursuit? It can not get better than that. However,
+            as I started exploring how I could get involved with certain
+            Fellowships, I was greeted with a page straight out of the early
+            2010s. I got past the optics of the page and started to regularly
+            use the webpage. However, I soon realized that I was finding myself
+            asking, "wait, where do I go for office hours?" or "how do I go back
+            to this page". When I found myself asking these questions, I
+            realized that there was a usability problem and serious improvements
+            needed to be made to the website so other users don't have the same
+            confusion as I did. My own experience is where my inspiration for
+            redesigning the Brown Fellowship website stemmed from. Come along the
+            journey of how I did such that!
+          </p>
+        </div>
+      </div>
+      <div
+        style="
+          border-bottom: 1px solid #e6e6e9;
+          width: 70%;
+          margin: 2.5% 0% 2.5% 17%;
+        "
+      ></div>
+    </div>
+    <!--------------Usability Eval----------->
+    <div class="container">
+      <div class="row">
+        <div
+          class="one column"
+          style="
+            border-bottom: 5px solid#C00404;
+            color: #070600;
+            width: auto;
+            margin-left: 9.5%;
+            height: 3.5rem;
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          Original Page:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div class="twelve columns">
+          <img
+            style="max-width: 100%"
+            src="Images/original-page.png"
+            alt="Image of the original Brown Fellowship web-page"
+          />
+          <img
+            style="max-width: 100%"
+            src="Images/origina-page-2.png"
+            alt="Image of the original Brown Fellowship web-page"
+          />
+          <p>
+            <br />
+            Above is the original Brown Fellowships webpage. Let's explore some
+            of the usability features (or lack of) that I and other users may
+            face when using this webpage and how we can improve upon it.
+          </p>
+        </div>
+      </div>
+      <div
+        style="
+          border-bottom: 1px solid #e6e6e9;
+          width: 70%;
+          margin: 2.5% 0% 2.5% 17%;
+        "
+      ></div>
+    </div>
+    <!-----------Usability Evaluations------->
+    <div class="container">
+      <div class="row">
+        <div
+          class="one column"
+          style="
+            border-bottom: 5px solid#C00404;
+            color: #070600;
+            width: auto;
+            height: 3.5rem;
+            font-weight: bolder;
+            margin-left: 9.5%;
+            margin-bottom: 2%;
+          "
+        >
+          Usability Evaluation:
+        </div>
+      </div>
+
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div class="usa-descrip">
+          <p>
+            Let’s run through the usability of the fellowship website. Always
+            important to remember that this could be the difference between
+            someone applying for a fellowship versus someone being dissatisfied
+            with the prospect of applying! We will analyze three main factors:
+            <b> learnability, memorability, and efficiency.</b> We will do this
+            with the help of the 10 Usability Heuristics. Here is a link for
+            more information on these Heuristics(<a
+              href="https://www.nngroup.com/articles/ten-usability-heuristics/"
+              >10 Usability Heuristics for User Interface Design</a
+            >).
+            <br />
+            <br />
+            Scroll through the images to see how we incorporate and or improve
+            the usability concepts in our low-fidelity prototypes.
+          </p>
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          What the website does well:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <li>
+            <b>Match between the system and the real world:</b> the prose
+            throughout the website is welcoming to new users and conversational
+            which ultimately helps with the <b>learnability</b> of the website
+            as users are able to clearly read and feel welcomed.
+          </li>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <section class="carousel">
+            <div class="slides">
+              <div class="slides-item slide-1" id="slide-1">
+                <img
+                  src="Images/prose.jpeg"
+                  alt="Image of the original website with the written prose circled red. "
+                />
+              </div>
+              <div class="slides-item slide-2" id="slide-2">
+                <img
+                  src="Images/prose-fidel.png"
+                  alt="Image of low-fidel highlighting the prose."
+                />
+              </div>
+            </div>
+            <div class="carousel__nav">
+              <a class="slider-nav" href="#slide-1">1</a>
+              <a class="slider-nav" href="#slide-2">2</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          What the website does NOT do well:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <li>
+            A lack of <b>aesthetic and minimalist design:</b> there are two big
+            blocks of text on the home page that compete with relevant units of
+            information and diminish the visibility of important information.
+            Not only does this hinder <b>learnability</b> but this also
+            negatively affects returning users' <b>memorability </b> of the
+            website as the relevant information they once saw and engaged with
+            is only viewable after having to dig around the website.
+          </li>
+          <li>
+            Lack of easily viewable
+            <b>help or documentation for new users.</b> This hinders
+            <b> learnability</b> of the website.
+          </li>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <section class="carousel">
+            <div class="slides">
+              <div class="slides-item slide-1" id="slide-3">
+                <img
+                  src="Images/help.jpeg"
+                  alt="Image of the original website with the usability concerns highlighted."
+                />
+              </div>
+              <div class="slides-item slide-2" id="slide-4">
+                <img
+                  src="Images/help-fidel.png"
+                  alt="Image of low-fidel highlighting the addition of help button and white space."
+                />
+              </div>
+            </div>
+            <div class="carousel__nav">
+              <a class="slider-nav" href="#slide-3">1</a>
+              <a class="slider-nav" href="#slide-4">2</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <li>
+            <b>Recognition rather than recall:</b> the website does not do a
+            good job of making objects, actions, and options visible when
+            entering the home page. For example, the vertical orientation of the
+            nav bar and calendar makes it such that the user may miss out on
+            helpful pages because it gets cut out which impedes
+            <b>learnability, memorability, and efficiency. </b> Additionally,
+            having two different competing nav bars creates conflict about which
+            navbar to use amongst users impeding all three factors again.
+          </li>
+          <li>
+            <b>Flexibility and Efficiency of Use: </b> the website starts to
+            accomplish this by putting the calendar and office hours link on the
+            first home page such that users who already know what fellowships
+            are will have quick access to important information. However, the
+            design of this is not responsive and has light text that WAVE has
+            flagged as an accessibility issue. Additionally, something that I
+            had trouble doing was memorizing where the link to schedule office
+            hours was located; this was because the blocks of text were pushing
+            this valuable information to the bottom of the page.
+          </li>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <section class="carousel">
+            <div class="slides">
+              <div class="slides-item slide-1" id="slide-5">
+                <img
+                  src="Images/nav.jpeg"
+                  alt="Image of the original website with the usability concerns highlighted "
+                />
+              </div>
+              <div class="slides-item slide-2" id="slide-6">
+                <img
+                  src="Images/nav-fidel.png"
+                  alt="Image of low-fidel highlighting the addition of one nav bar and office hours."
+                />
+              </div>
+            </div>
+            <div class="carousel__nav">
+              <a class="slider-nav" href="#slide-5">1</a>
+              <a class="slider-nav" href="#slide-6">2</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          A note about Accessibility:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          The original website was run through WAVE accessibility tool. A
+          summary of the finding is listed below:
+          <ul style="margin-left: 10%">
+            <li>
+              Certain links contain no text making it difficult for people using
+              screen readers to use the webpage
+            </li>
+            <li>Alt tags are present :)</li>
+            <li>
+              There are extremely small texts located throughout the webpage.
+              This makes it hard for people who have vision problems to use our
+              website.
+            </li>
+            <li>
+              The calendar has low contrast making it difficult for people who
+              have vision problems to use our website.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <p>Below are the three responsive low-fidel prototypes.</p>
+        </div>
+      </div>
+      <div
+        style="
+          border-bottom: 1px solid #e6e6e9;
+          width: 70%;
+          margin: 2.5% 0% 2.5% 17%;
+        "
+      ></div>
+    </div>
+    <!-----------Products--------------->
+    <div class="container">
+      <div class="row">
+        <div
+          class="one column"
+          style="
+            border-bottom: 5px solid#C00404;
+            color: #070600;
+            width: auto;
+            height: 3.5rem;
+            font-weight: bolder;
+            margin-left: 9.5%;
+            margin-bottom: 2%;
+          "
+        >
+          The Product:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          Low-Fidelity Prototypes:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <section class="carousel">
+          <div class="slides">
+            <div class="slides-item slide-1" id="slide-7">
+              <img
+                src="Images/low-fidel-comp.png"
+                alt="Image of the computer based low-fidel prototype. "
+              />
+            </div>
+            <div class="slides-item slide-2" id="slide-8">
+              <img
+                src="Images/low-fidel-ipad.png"
+                alt="Image of the ipad based low-fidel prototype. "
+              />
+            </div>
+            <div class="slides-item slide-3" id="slide-9">
+              <img
+                src="Images/low-fidel-iphone.png"
+                alt="Image of the iphone based low-fidel prototype. "
+              />
+            </div>
+          </div>
+          <div class="carousel__nav">
+            <a class="slider-nav" href="#slide-7">1</a>
+            <a class="slider-nav" href="#slide-8">2</a>
+            <a class="slider-nav" href="#slide-9">3</a>
+          </div>
+        </section>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          Visual Design Style Guide:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <img
+            style="max-width: 100%"
+            src="Images/style-guide.png"
+            alt="Image of Visual Design Style Guide"
+          />
+          <p>
+            <br />
+            My inspiration for the style guide was using some of the fundamental
+            palettes of the university. I also wanted to incorporate a
+            minimalist design thus there are very few moving parts and simple
+            font. I have also highlighted the user's interactions when hovering
+            over the navbar and buttons which mimic the Brown University home
+            page.
+          </p>
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          High-Fidelity Prototypes:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 100%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1); margin-right: 50rem"
+          width="65%"
+          height="450"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgEII5eHvEZmRTls0Knmbtv%2FResponsive-Redesign%3Fnode-id%3D1%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A3"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 100%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1)"
+          width="65%"
+          height="450"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZmPAh50ktsBWtM9CQMG0Zq%2FResponsive-Redesign-Ipad%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 100%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1)"
+          width="65%"
+          height="450"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPFyTXHb50kThRSFhMIyGLd%2FResponsive-Redesign-iPhone%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            margin-top: 2rem;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          How we will build:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <img
+            style="max-width: 100%"
+            src="Images/build1.png"
+            alt="Image of Visual Design Style Guide"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <img
+            style="max-width: 100%"
+            src="Images/build2.png"
+            alt="Image of Visual Design Style Guide"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          text-align: left;
+          margin-left: 14%;
+        "
+      >
+        <div
+          class="one column"
+          style="
+            border-bottom: 2px solid#C00404;
+            color: #070600;
+            width: auto;
+            margin-top: 2rem;
+            /* height: 3.5rem; */
+            font-weight: bolder;
+            margin-bottom: 2%;
+          "
+        >
+          Website Demo and Link:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <img
+            style="width: 100%; height: 100%"
+            src="Images/demo.gif"
+            alt="Image of Visual Design Style Guide"
+          />
+        </div>
+        <p>
+          <br />
+          Above is a demo of my website highlighting the features and
+          responsiveness of the design. Here is the link to the website:
+          <a href="https://excitedtiger666.github.io/Responsive-Redesign/">
+            <b>Brown Fellowships Redesign.</b></a
+          >
+          I hope you enjoy your time there!
+        </p>
+      </div>
+      <div
+        style="
+          border-bottom: 1px solid #e6e6e9;
+          width: 70%;
+          margin: 2.5% 0% 2.5% 17%;
+        "
+      ></div>
+    </div>
+    <!-----------Conclusion--------------->
+    <div class="container">
+      <div class="row">
+        <div
+          class="one column"
+          style="
+            margin-top: 5%;
+            border-bottom: 5px solid#C00404;
+            color: #070600;
+            width: auto;
+            height: 3.5rem;
+            font-weight: bolder;
+            margin-left: 10%;
+            margin-bottom: 2%;
+          "
+        >
+          All in all:
+        </div>
+      </div>
+      <div
+        class="row"
+        style="
+          font-size: 1.5rem;
+          width: 65%;
+          margin-left: 21.5%;
+          text-align: left;
+        "
+      >
+        <div>
+          <p>
+            I hope you enjoyed coming along on this redesign journey with me
+            today. This journey has been an incredibly fulfilling one for me.
+            Fundamentally, I have learned that the usability of your websites
+            -quite frankly products as a whole- is crucial. No amount of
+            prestige, power, or influence will win your customers over if they
+            can't actually use the site or product.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      style="
+        border-bottom: 1px solid #e6e6e9;
+        width: 70%;
+        margin: 2.5% 0% 2.5% 17%;
+      "
+    ></div>
+  </body>
+</html>
